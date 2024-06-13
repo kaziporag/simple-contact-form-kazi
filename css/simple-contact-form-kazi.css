@@ -1,0 +1,46 @@
+.contact-form-kazi input[type="text" i],
+.contact-form-kazi input[type="email" i],
+.contact-form-kazi input [type="url" i],
+.contact-form-kazi input[type="password" i],
+.contact-form-kazi input[type="number" i],
+.contact-form-kazi input[type="date" i],
+.contact-form-kazi input[type="datetime-local" i],
+.contact-form-kazi input[type="month" i],
+.contact-form-kazi input[type="search" i],
+.contact-form-kazi input[type="tel" i],
+.contact-form-kazi input[type="time" i],
+.contact-form-kazi input[type="week" i],
+.contact-form-kazi input[type="text" i][type="email" i],
+.contact-form-kazi input[type="text" i][type="url" i],
+.contact-form-kazi input[type="text" i][type="password" i],
+.contact-form-kazi input[type="text" i][type="number" i],
+.contact-form-kazi input[type="text" i][type="date" i],
+.contact-form-kazi input[type="text" i][type="datetime-local" i],
+.contact-form-kazi input[type="text" i][type="month" i],
+.contact-form-kazi input[type="text" i][type="search" i],
+.contact-form-kazi input[type="text" i][type="tel" i],
+.contact-form-kazi input[type="text" i][type="time" i],
+.contact-form-kazi textarea
+{
+    border: 0;
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc45;
+    outline: 0;
+}
+
+.contact-form-kazi input[type="submit" i]
+{
+    border: 0;
+    padding: 20px 50px;
+    border-radius: 5px;
+    background: #1e8b2d;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}

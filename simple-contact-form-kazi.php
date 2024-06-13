@@ -69,15 +69,18 @@ class simpleContactFormKazi {
     }
 
     public function contact_form_shortcode() {
-
-        $forms = '<h2>Contact Form</h2>';
+        
+        $forms = '<div class="contact-form-kazi">';
+        $forms .= '<h2>Contact Form</h2>';
         $forms .= '<p>Please fill out the form below.</p>';
         $forms .= '<input type="text" name="name" placeholder="Name" />';
         $forms .= '<input type="email" name="email" placeholder="Email" />';
         $forms .= '<input type="text" name="subject" placeholder="Subject" />';
         $forms .= '<textarea name="message" placeholder="Message"></textarea>';
-        $forms .= '<input type="submit" value="Submit" />';        
+        $forms .= '<input type="submit" value="Submit" />';
+        $forms = '</div>';       
         return $forms; 
+    
     }
 }
 
